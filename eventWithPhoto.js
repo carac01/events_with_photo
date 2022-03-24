@@ -6,6 +6,7 @@ function reblur() {
 function showPhoto() {
     var image = document.getElementById("photo");
     image.src = "static/photo.jpg";
+    console.log("The picture: La creazione di Adamo, Michelangelo di Lodovico di Leonardo di Buonarroti Simoni")
 }
 
 window.onload = function() {
